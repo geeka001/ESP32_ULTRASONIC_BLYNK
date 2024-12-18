@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL6ECtnxIw0"
-#define BLYNK_TEMPLATE_NAME "ESP32 Interference with Ultrasonic sensor"
-//#define BLYNK_AUTH_TOKEN "kQu1QcTFkDNEb8W2KX-YfAgvSWAl7gEo"
+#define BLYNK_TEMPLATE_ID ""
+#define BLYNK_TEMPLATE_NAME ""
+//#define BLYNK_AUTH_TOKEN ""
 
 #include <WiFi.h>
 #include <BlynkSimpleEsp32.h> // Corrected library include
@@ -12,9 +12,9 @@
 const int trigPin = 5;
 const int echoPin = 18;
 
-const char* auth = "kQu1QcTFkDNEb8W2KX-YfAgvSWAl7gEo";
-const char* pass = "Ahs@2063";
-const char* ssid = "1st Floor 2-Ahs-2.4G";
+const char* auth = "";
+const char* pass = "3";
+const char* ssid = "";
 
 long duration;
 int distanceCm;
