@@ -13,7 +13,7 @@ const int trigPin = 5;
 const int echoPin = 18;
 
 const char* auth = "";
-const char* pass = "3";
+const char* pass = "";
 const char* ssid = "";
 
 long duration;
